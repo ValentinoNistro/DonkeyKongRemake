@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
 
     private void JumpMechanic()
     {
-        rb.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
+        rb.AddForce(new Vector3(0, 8, 0), ForceMode2D.Impulse);
         cubeIsOnGround = false;
     }
 
