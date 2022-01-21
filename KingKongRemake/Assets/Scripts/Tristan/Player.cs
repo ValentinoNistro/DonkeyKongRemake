@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float speed = .01f;
+    private float speed = .004f;
+    private Rigidbody2D rb;
+    private bool cubeIsOnGround = false;
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         MovementMechanic();
+
+        if (Input.GetButtonDown("Jump") && cubeIsOnGround == true)
+        {
+            JumpMechanic();
+        }
     }
 
     private void MovementMechanic()
@@ -22,5 +29,19 @@ public class Player : MonoBehaviour
         Vector3 moveDirection = new Vector3(xDirection, 0f, 0f);
 
         transform.position += moveDirection * speed;
+    }
+
+    private void JumpMechanic()
+    {
+        rb.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
+        cubeIsOnGround = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            cubeIsOnGround = true;
+        }
     }
 }
