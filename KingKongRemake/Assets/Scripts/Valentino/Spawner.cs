@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject prefab;
+    public float minTime = 2f;
+    public float maxTime = 4f;
+    private void Start()
     {
-        
+        Spawn();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Spawn()
     {
-        
+        Instantiate(prefab, transform.position, Quaternion.identity);
+        Invoke(nameof(Spawn), Random.Range(minTime, maxTime));
+
     }
 }
