@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float speed = .004f;
+    private float speed = .050f;
     private Rigidbody2D rb;
     private bool cubeIsOnGround = false;
     void Start()
