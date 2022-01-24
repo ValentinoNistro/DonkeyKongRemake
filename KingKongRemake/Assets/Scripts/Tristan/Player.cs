@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float speed = .050f;
+    public float speed = .050f;
+    public float jumpHeight = 4f;
     private Rigidbody2D rb;
     private bool cubeIsOnGround = false;
     void Start()
@@ -33,7 +34,7 @@ public class Player : MonoBehaviour
 
     private void JumpMechanic()
     {
-        rb.AddForce(new Vector3(0, 8, 0), ForceMode2D.Impulse);
+        rb.AddForce(new Vector3(0, jumpHeight, 0), ForceMode2D.Impulse);
         cubeIsOnGround = false;
     }
 
