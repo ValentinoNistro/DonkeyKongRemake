@@ -14,8 +14,6 @@ public class Barrel : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("hello");
-
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             rigidbody.AddForce(collision.transform.right * speed, ForceMode2D.Impulse);

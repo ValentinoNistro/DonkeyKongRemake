@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Vicory_Screen.unity
     guid: 98c38c4ec18aeb347a6aa50415799949
+  - enabled: 1
+    path: Assets/Scenes/Game_Over.unity
+    guid: efee75ddc23f37f43a426496c96b3712
   m_configObjects: {}
