@@ -50,5 +50,9 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+        if (collision.gameObject.tag == "Barrel")
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }
