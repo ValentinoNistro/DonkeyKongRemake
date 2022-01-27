@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 3224b59e340782a4bba7a4471aa6855a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7372106140471388533
+    second: Crying child sprite sheet_0
+  - first:
+      213: 4319632555099380539
+    second: Crying child sprite sheet_1
+  - first:
+      213: 3438501625878958426
+    second: Crying child sprite sheet_2
+  - first:
+      213: -7435962771393718439
+    second: Crying child sprite sheet_3
+  - first:
+      213: -2151625552583252773
+    second: Crying child sprite sheet_4
+  - first:
+      213: 1433104917281565090
+    second: Crying child sprite sheet_5
+  - first:
+      213: -8702593315822879555
+    second: Crying child sprite sheet_6
+  - first:
+      213: 3298182850864559069
+    second: Crying child sprite sheet_7
+  - first:
+      213: -7958499177945249140
+    second: Crying child sprite sheet_8
+  - first:
+      213: 8110784261237741875
+    second: Crying child sprite sheet_9
+  - first:
+      213: 732543534108816291
+    second: Crying child sprite sheet_10
+  - first:
+      213: 3289719945515605189
+    second: Crying child sprite sheet_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crying child sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1468
+        width: 407
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e545c97bfe4660800000000000000
+      internalID: 7372106140471388533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1482
+        width: 358
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b59e62cea62fb30800000000000000
+      internalID: 4319632555099380539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1515
+        width: 334
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a515e12c20308bf20800000000000000
+      internalID: 3438501625878958426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1602
+        width: 358
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9575c00c1472ec890800000000000000
+      internalID: -7435962771393718439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 692
+        width: 588
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd42f90b5f3e322e0800000000000000
+      internalID: -2151625552583252773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 695
+        width: 508
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9ee60545963e310800000000000000
+      internalID: 1433104917281565090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 684
+        width: 356
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc30b1dc7d2a3780800000000000000
+      internalID: -8702593315822879555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 681
+        width: 256
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3311e04df75cd20800000000000000
+      internalID: 3298182850864559069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 82
+        width: 255
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ac551e92bbd8190800000000000000
+      internalID: -7958499177945249140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 85
+        width: 356
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33997e4105b4f8070800000000000000
+      internalID: 8110784261237741875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 96
+        width: 507
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3b01d86748a2a00800000000000000
+      internalID: 732543534108816291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crying child sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 95
+        width: 590
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc99fa5cde67ad20800000000000000
+      internalID: 3289719945515605189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
