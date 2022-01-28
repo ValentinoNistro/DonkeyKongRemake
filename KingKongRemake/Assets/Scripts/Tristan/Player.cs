@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && cubeIsOnGround == true)
         {
             JumpMechanic();
+            animatorPlayer.SetBool("IsJumping", true);
         }
     }
 
@@ -56,6 +57,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             cubeIsOnGround = true;
+            animatorPlayer.SetBool("IsJumping", false);
         }
 
         if (collision.gameObject.tag == "Princes")
