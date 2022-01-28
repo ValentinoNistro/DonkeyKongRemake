@@ -18,5 +18,10 @@ public class Barrel : MonoBehaviour
         {
             rigidbody.AddForce(collision.transform.right * speed, ForceMode2D.Impulse);
         }
+
+        if (collision.gameObject.tag == "Barrel_Destroyer")
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 }

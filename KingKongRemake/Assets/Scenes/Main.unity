@@ -2751,8 +2751,8 @@ GameObject:
   - component: {fileID: 1937966621}
   - component: {fileID: 1937966623}
   m_Layer: 0
-  m_Name: barrel
-  m_TagString: Untagged
+  m_Name: TrashCan
+  m_TagString: Barrel_Destroyer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
