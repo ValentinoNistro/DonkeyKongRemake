@@ -8,6 +8,7 @@ TagManager:
   - Ladder
   - Princes
   - Barrel
+  - Barrel_Destroyer
   layers:
   - Default
   - TransparentFX
