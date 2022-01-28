@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float jumpHeight = 4f;
     private Rigidbody2D rb;
     private bool cubeIsOnGround = false;
+    public Animator animatorPlayer;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,9 +29,20 @@ public class Player : MonoBehaviour
     {
         float xDirection = Input.GetAxis("Horizontal");
 
+        animatorPlayer.SetFloat("Speed", Mathf.Abs(xDirection));
+
         Vector3 moveDirection = new Vector3(xDirection, 0f, 0f);
 
         transform.position += moveDirection * speed;
+
+        if(xDirection < 0)
+        {
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x) * -1, transform.localScale.y);
+        }
+        else if(xDirection > 0)
+        {
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
+        }
     }
 
     private void JumpMechanic()

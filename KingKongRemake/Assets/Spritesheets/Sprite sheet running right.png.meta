@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: a2782c3adf30522418e4610519782522
+guid: 7eaf6edc89def3e498ca4367edfb7215
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7025985617440327065
-    second: idle spritesheet_0
+      213: -553549233910448113
+    second: Sprite sheet running right_0
+  - first:
+      213: -5405006908518990930
+    second: Sprite sheet running right_1
+  - first:
+      213: 7531088565934853333
+    second: Sprite sheet running right_2
+  - first:
+      213: -9124341287409810190
+    second: Sprite sheet running right_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -142,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle spritesheet_0
+      name: Sprite sheet running right_0
       rect:
         serializedVersion: 2
-        x: 820
-        y: 744
-        width: 408
-        height: 561
+        x: 85
+        y: 748
+        width: 255
+        height: 552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +165,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76a37736e4fae7e90800000000000000
-      internalID: -7025985617440327065
+      spriteID: f00041397e56158f0800000000000000
+      internalID: -553549233910448113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet running right_1
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 751
+        width: 356
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab71398ade8df4b0800000000000000
+      internalID: -5405006908518990930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet running right_2
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 762
+        width: 508
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc8d88362dc38860800000000000000
+      internalID: 7531088565934853333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet running right_3
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 751
+        width: 591
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4028221f3df5180800000000000000
+      internalID: -9124341287409810190
       vertices: []
       indices: 
       edges: []
