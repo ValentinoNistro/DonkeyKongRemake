@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public float speed = .050f;
+    public float speed = .020f;
     public float jumpHeight = 4f;
     private Rigidbody2D rb;
     private bool cubeIsOnGround = false;
@@ -62,11 +62,11 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.tag == "Princes")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         if (collision.gameObject.tag == "Barrel")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(0);
         }
     }
 }
