@@ -21,7 +21,7 @@ public class Barrel : MonoBehaviour
 
         if (collision.gameObject.tag == "Barrel_Destroyer")
         {
-            this.gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
 }
